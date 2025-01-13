@@ -41,7 +41,7 @@ Name                    Version
 dgl             			2.4.0.th23.cu121     
 
 
-The BLIP model is required to run the product_xxtext.py, and if you want to run it locally, please https://huggingface.co/Salesforce/blip-image-captioning-large/tree/main it in this website. Download these 5 files, config.json, preprocessor_config.json, pytorch_model.bin, tokenizer_config.json, vocab.txt.
+The BLIP model is required to run the product_xxtext.py, and if you want to run it locally, please https://huggingface.co/Salesforce/blip-image-captioning-large/tree/main it in this website. Download these 5 files, config.json, preprocessor_config.json, pytorch_model.bin, tokenizer_config.json, vocab.txt.And put them in the self-built "blip-model" folder
 
 More datasets can be found on this website：https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md
 
