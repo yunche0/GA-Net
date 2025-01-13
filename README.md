@@ -21,6 +21,11 @@ Each entry in these files will contain three attributes: file path, text descrip
 Ablation Study on the Impact of Text Descriptions:
 To explore the impact of text descriptions through ablation studies, use the product_sametext.py script. 
 This will also generate two text files, but each image will have the same text description.
+
+It is important to note that the DGL must be downloaded from the official website https://www.dgl.ai/pages/start.html, otherwise it is easy to have a version mismatch.
+
+The BLIP model is required to run the product_xxtext.py, and if you want to run it locally, please https://huggingface.co/Salesforce/blip-image-captioning-large/tree/main it in this website. Download these 5 files, config.json, preprocessor_config.json, pytorch_model.bin, tokenizer_config.json, vocab.txt.
+
 More datasets can be found on this website：https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md
 
 Official Run
