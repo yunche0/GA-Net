@@ -9,6 +9,7 @@ Flowers-102 Dataset
 Description: The Flowers-102 dataset consists of images of 102 different flower species. 
 It is widely used in classification tasks in computer vision and provides richly annotated images for each category.
 Download URL:https://www.robots.ox.ac.uk/~vgg/data/flowers/102/102flowers.tgz
+Download from [here](https://drive.google.com/file/d/1Pp0sRXzZFZq15zVOzKjKBu4A9i01nozT/view).split_zhou_OxfordFlowers.json
 
 Preparations Before Official Run
 Image Filename Specification:
