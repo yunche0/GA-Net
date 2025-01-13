@@ -247,7 +247,6 @@ for epoch in range(num_epochs):
         combined_features = torch.cat([text_features, visual_features], dim=1)
         adapter_outputs = adapter_gnn(graph, combined_features)
         outputs = model.gcn(graph, adapter_outputs)
-        //outputs=adapter_outputs
         loss = F.cross_entropy(outputs, labels)
         ewc_loss = ewc.penalty(model)
         total_loss = loss + ewc_loss
