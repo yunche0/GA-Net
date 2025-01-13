@@ -21,6 +21,7 @@ Each entry in these files will contain three attributes: file path, text descrip
 Ablation Study on the Impact of Text Descriptions:
 To explore the impact of text descriptions through ablation studies, use the product_sametext.py script. 
 This will also generate two text files, but each image will have the same text description.
+More datasets can be found on this website：https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md
 
 Official Run
 Model Variants:
