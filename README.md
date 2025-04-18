@@ -22,24 +22,6 @@ Ablation Study on the Impact of Text Descriptions:
 To explore the impact of text descriptions through ablation studies, use the product_sametext.py script. 
 This will also generate two text files, but each image will have the same text description.
 
-It is important to note that the DGL must be downloaded from the official website https://www.dgl.ai/pages/start.html, otherwise it is easy to have a version mismatch.
-Because this dgl version is easy to mismatch if the official website download fails. can learn from my environment,
-Torch：2.3.0+cu121
-Python: 3.12;
-If the environment is the same as mine, run conda install -c dglteam/label/th23_cu121 dgl=2.4.0.th23.cu121
-
-The final version should look like this:
-1.root@autodl-container-75c14f9dbd-39766c8b:~/autodl-tmp/PIXIU# pip show dgl
-Name: dgl
-Version: 2.4.0+cu121
-Summary: Deep Graph Library
-Home-page: https://github.com/dmlc/dgl
-
-2.root@autodl-container-75c14f9dbd-39766c8b:~/autodl-tmp/PIXIU# conda list dgl
-packages in environment at /root/miniconda3:
-Name                    Version                   
-dgl             			2.4.0.th23.cu121     
-
 
 The BLIP model is required to run the product_xxtext.py, and if you want to run it locally, please https://huggingface.co/Salesforce/blip-image-captioning-large/tree/main it in this website. Download these 5 files, config.json, preprocessor_config.json, pytorch_model.bin, tokenizer_config.json, vocab.txt.And put them in the self-built "blip-model" folder
 
